@@ -1,60 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="css/styles.css">
-    <title>ODS 15 • Vida de Ecosistemas Terrestres</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/comments.css">
+  <title>ODS 15 • Vida de Ecosistemas Terrestres</title>
 </head>
+
 <body>
-<nav>
-<label for=""class="brand">
-<a href="javascript:void(0)">
-<img src="https://redalmamater.cl/cam/wp-content/uploads/sites/4/2021/10/lph-logo.png" alt="logo">
-</a>
-</nav>
+  <!-- 
+          MARCA
+ -->
+  <nav class="brand">
+    <a href="javascript:void(0)">
+      <ion-icon title="LPH Logo" class="lph-logo"
+        src="https://adstiumi.sirv.com/terraconserva/svg/lph-logo.svg"></ion-icon>
+      <span>Liceo Politécnico Hannover</span>
+    </a>
+  </nav>
   <header>
     <h1>ODS 15 • Vida de Ecosistemas Terrestres</h1>
   </header>
   <main>
     <section>
-      <h2>Introducción</h2>
+      <h2>
+        <ion-icon name="information-circle-outline"></ion-icon> Introducción
+      </h2>
       <p>
-        Aquí puedes escribir una introducción breve sobre el ODS 15 y su importancia en la preservación de la vida de los ecosistemas terrestres. Puedes incluir información sobre por qué es relevante, qué problemas enfrenta y cómo abordarlos.
+        Como organización que se compromete con la preservación de la naturaleza y los ecosistemas terrestres, tenemos
+        como regla de oro el seguimiento del Objetivo de desarrollo sostenible N°15.
       </p>
     </section>
 
     <section>
-      <h2>Objetivos</h2>
+      <h2>
+        <ion-icon name="leaf-outline"></ion-icon> Objetivos
+      </h2>
       <ul>
-        <li>Objetivo 15.1: Asegurar la conservación, restauración y uso sostenible de los ecosistemas terrestres y sus servicios, en particular los bosques, humedales, montañas y tierras áridas, en línea con las obligaciones que incumben a los Estados en virtud de los acuerdos internacionales.</li>
-        <li>Objetivo 15.2: Promover la gestión sostenible de todos los tipos de bosques, detener la deforestación, restaurar los bosques degradados y aumentar la forestación y la reforestación globalmente.</li>
+        <li>Objetivo 15.1: Asegurar la conservación, restauración y uso sostenible de los ecosistemas terrestres y sus
+          servicios, en particular los bosques, humedales, montañas y tierras áridas, en línea con las obligaciones que
+          incumben a los Estados en virtud de los acuerdos internacionales.</li>
+        <li>Objetivo 15.2: Promover la gestión sostenible de todos los tipos de bosques, detener la deforestación,
+          restaurar los bosques degradados y aumentar la forestación y la reforestación globalmente.</li>
         <!-- Puedes agregar más objetivos según sea necesario -->
       </ul>
     </section>
 
     <section>
-      <h2>Acciones</h2>
+      <h2>
+        <ion-icon name="accessibility-outline"></ion-icon> Acciones
+      </h2>
       <ol>
-        <li>Implementar y hacer cumplir leyes y regulaciones ambientales para la conservación de los ecosistemas terrestres.</li>
+        <li>Implementar y hacer cumplir leyes y regulaciones ambientales para la conservación de los ecosistemas
+          terrestres.</li>
         <li>Promover prácticas agrícolas sostenibles y gestión forestal responsable.</li>
-        <li>Fomentar la educación y la conciencia pública sobre la importancia de la conservación de la vida de los ecosistemas terrestres.</li>
+        <li>Fomentar la educación y la conciencia pública sobre la importancia de la conservación de la vida de los
+          ecosistemas terrestres.</li>
         <!-- Puedes agregar más acciones según sea necesario -->
       </ol>
     </section>
 
     <section>
-      <h2>Conclusión</h2>
+      <h2>
+        <ion-icon name="sunny-outline"></ion-icon> Conclusión
+      </h2>
       <p>
-        En esta sección puedes resumir la importancia de abordar el ODS 15 y destacar la necesidad de tomar medidas concretas para preservar la vida de los ecosistemas terrestres.
+        En esta sección puedes resumir la importancia de abordar el ODS 15 y destacar la necesidad de tomar medidas
+        concretas para preservar la vida de los ecosistemas terrestres.
       </p>
     </section>
   </main>
+  <!-- 
+          SECCIÓN DE COMENTARIOS
+ -->
+  <section>
+    <div id="comments-container">
+      <h2>
+        <ion-icon name="chatbubbles-outline"></ion-icon> Comentarios
+      </h2>
+      <div id="comments-list"></div>
 
+      <form id="comment-form">
+        <h3>Dejar un comentario</h3>
+        <div>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" required>
+        </div>
+        <div>
+          <label for="message">Mensaje:</label>
+          <textarea id="message" required></textarea>
+        </div>
+        <button type="submit">Enviar comentario</button>
+      </form>
+    </div>
+
+  </section>
+  <!-- 
+          FOOTER
+ -->
   <footer>
     <!-- Aquí puedes agregar información de contacto, enlaces adicionales, etc. -->
-    <p>Copyright &copy; 2023 - VisonGuardEntertaiment</p>
+    <p>Copyright &copy; 2023 - TerraConserva</p>
   </footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="js/comments.js"></script>
 </body>
+
 </html>

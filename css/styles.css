@@ -1,12 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;400;700;900&display=swap');
 
+:root {
+  /* COLORES GENERALES */
+  --negro: #232e332b;
+  --rojo: #ff6b6b;
+  --amarillo-claro: #ffdd57;
+  --amarillo: #ffd700;
+
+  /* COLORES SCROLLBAR */
+  --sb-track-color: #232e332b;
+  --sb-thumb-color: #ff6b6b;
+  --sb-size: 10px;
+}
+
 body {
   background-color: #f7f7f7;
   font-family: 'Geologica', sans-serif;
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+
 }
 
 header {
-  background-color: #ffdd57;
+  background-color: var(--amarillo-claro);
   padding: 20px;
   text-align: center;
 }
@@ -18,7 +46,7 @@ h1 {
 }
 
 nav {
-  background-color: #ffd700;
+  background-color: var(--amarillo);
   padding: 10px;
   text-align: center;
 }

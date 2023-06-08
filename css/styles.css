@@ -41,7 +41,8 @@ h2 {
   margin-top: 0;
 }
 
-ul, ol {
+ul,
+ol {
   color: #333;
   margin-left: 20px;
 }
@@ -52,9 +53,41 @@ footer {
   padding: 10px;
   text-align: center;
 }
-.brand img{
+
+button {
   display: block;
-  padding: ;
-  width:12,75px;
-  height:75px;
+  color: #fff;
+  background-color: green;
+}
+
+.brand {
+  -webkit-user-select: none;
+  user-select: none;
+  display: block;
+}
+
+.brand a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+  text-align: right;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.brand img {
+  display: block;
+  padding: 0.1rem;
+  height: 2rem;
+}
+
+.brand span {
+  margin-left: 5px;
+}
+
+.lph-logo {
+  font-size: 32px;
 }

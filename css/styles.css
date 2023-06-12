@@ -119,3 +119,7 @@ button {
 .lph-logo {
   font-size: 32px;
 }
+
+header ul li a.active {
+  color: #ff0000; /* Cambia el color del texto activo a rojo */
+}

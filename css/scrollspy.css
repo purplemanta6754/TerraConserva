@@ -13,12 +13,14 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: 0.3s;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: var(--verde);
+    color: white;
+    transition: 0.3s;
   }
   
   /* Add an active class to highlight the current page */
